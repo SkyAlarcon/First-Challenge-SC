@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/contact.css">
     <title>Dev do Céu</title>
 </head>
 <body>
@@ -30,6 +31,48 @@
         </nav>
         <hr>
     </header>
+    <main>
+        <h2 class="title">Send us a message</h2>
+        <form action="" method="POST" class="form">
+            <div class="form-contact-us">
+                <section class="basic-info">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="basic-info-input" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="basic-info-input" placeholder="email@example.com" required>
+                        <label for="country">Country</label>
+                        <select name="country" id="country" class="basic-info-input" required>
+                            <option value="" selected disabled>Select your country</option>
+                            <option value="BR">Brazil</option>
+                            <option value="US">United States</option>
+                            <option value="FR">France</option>
+                            <option value="EN">England</option>
+                            <option value="CH">China</option>
+                            <option value="JP">Japan</option>
+                            <option value="AU">Australia</option>
+                            <option value="AR">Argentina</option>
+                            <option value="ES">Spain</option>
+                            <option value="PT">Portugal</option>
+                            <option value="Other">Other</option>
+                        </select>
+                </section>
+                <section class="message-container">
+                    <label for="subject">Subject</label>
+                    <select name="subject" id="subject" class="subject-input" required>
+                        <option value="" selected disabled>Select your subject</option>
+                        <option value="Suggestion">Suggestion</option>
+                        <option value="Karen">Karen</option>
+                        <option value="New-history">New history</option>
+                        <option value="Bug">Bug</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <label for="message">Your message</label>
+                    <textarea name="message" id="contact-message" class="contact-message-textarea" cols="50" rows="20" placeholder="Max of 1000 characters" required></textarea>
+                </section>
+            </div>
+            <button>Send message</button>
+        </form>
+    </main>
     <hr>
     <footer>
         <div class="footer-links">

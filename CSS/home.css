@@ -38,6 +38,8 @@
 .article-img {
     width: 25vw;
     padding-bottom: 10px;
+
+    border-radius: 8px;
 }
 
 .weekly-popular-table {
@@ -81,4 +83,33 @@
     padding-top: 18px;
 
     text-align: center;
+}
+
+.video-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.YT-video-title {
+    font-size: 50px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.YT-video {
+    width: 20vw;
+    height: 12vw;
+
+    margin: 5px;
+    margin-bottom: 30px;
+
+    border: 0;
+    border-radius: 15px;
 }

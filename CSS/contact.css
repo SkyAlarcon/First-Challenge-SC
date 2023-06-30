@@ -1,0 +1,76 @@
+main {
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+form {
+    padding: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contact-us {
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-info {
+    font-size: 25px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 8px;
+}
+
+.basic-info-input {
+    padding: 5px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.contact-message-textarea {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.message-container {
+    margin-left: 10vw;
+    
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subject-input {
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #363636 ;
+    padding: 8px;
+
+    font-size: 25px;
+
+    border-radius: 8px;
+}
