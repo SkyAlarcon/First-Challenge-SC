@@ -40,6 +40,17 @@
     padding-bottom: 10px;
 }
 
+.weekly-popular-table {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.weekly-popular-and-top-authors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .table-news-title {
     font-size: 30px;
 }
@@ -55,5 +66,19 @@
 }
 
 .table-news-views {
+    text-align: center;
+}
+
+.top-authors-container {
+    font-size: 200%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-authors-list-item {
+    padding-top: 18px;
+
     text-align: center;
 }

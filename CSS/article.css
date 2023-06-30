@@ -1,0 +1,41 @@
+.title-date-authors {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.article-title {
+    font-size: 300%;
+}
+
+.date-authors {
+    padding-right: 100px;
+
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.date {
+    padding-bottom: 15px;
+}
+
+.img-and-article {
+    padding: 0 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-img {
+    width: 60vw;
+}
+
+.article {
+    font-size: 25px;
+}

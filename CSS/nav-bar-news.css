@@ -1,0 +1,27 @@
+main {
+    font-size: 20px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.news-container {
+    width: 30vw;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.short-description {
+    font-size: 16px;
+}
+
+.article {
+    text-align: justify;
+}
