@@ -1,115 +1,128 @@
+.nav-home-list {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-home-list li {
+  font-size: 40px;
+  padding: 25px;
+}
+
 .this-week-news {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .this-week-news-title {
-    padding: 5px;
-    margin-bottom: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
 
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .articles {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .article-container {
-    width: 30vw;
+  width: 30vw;
 
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
 
-    text-align: center;
+  text-align: center;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .article-img {
-    width: 25vw;
-    padding-bottom: 10px;
+  width: 25vw;
+  padding-bottom: 10px;
 
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .weekly-popular-table {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .weekly-popular-and-top-authors {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .table-news-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .table-news-title {
-    width: 500px;
-    height: 80px;
+  width: 500px;
+  height: 80px;
 }
 
 .table-news-date {
-    width: 200px;
-    text-align: center;
+  width: 200px;
+  text-align: center;
 }
 
 .table-news-views {
-    text-align: center;
+  text-align: center;
 }
 
 .top-authors-container {
-    font-size: 200%;
+  font-size: 200%;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .top-authors-list-item {
-    padding-top: 18px;
+  padding-top: 18px;
 
-    text-align: center;
+  text-align: center;
 }
 
 .video-news {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .YT-video-title {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .videos {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .YT-video {
-    width: 20vw;
-    height: 12vw;
+  width: 20vw;
+  height: 12vw;
 
-    margin: 5px;
-    margin-bottom: 30px;
+  margin: 5px;
+  margin-bottom: 30px;
 
-    border: 0;
-    border-radius: 15px;
+  border: 0;
+  border-radius: 15px;
 }
